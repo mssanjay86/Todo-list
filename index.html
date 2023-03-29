@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="parent">
+        <div class="todoList">
+            <h1>To-Do <small>List</small></h1>
+            <form id="form">
+            <input type="text" id="task" placeholder="Your Task" name="task">
+
+            <button type="submit" class="add-btn">Add</button>
+            <input type="text" id="searchText" placeholder="Enter task to search">
+            <ul class="list-unstyled" id="todo">
+                <div class="error-msg">
+                    <span id="display-error"></span>
+                </div>
+            </ul>
+        </form>
+        </div>
+        <div class="deletedTask">
+            <h1>Deleted Tasks</h1>
+            <ul id="deleted-todo"></ul>
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="dest/script.js"></script>
+
+</html>

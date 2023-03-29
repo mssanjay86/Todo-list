@@ -1,0 +1,78 @@
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 80%;
+    float: left;
+    padding-left: 20%;
+    margin-top: 5%;
+}
+
+.todoList{
+    width: 50%;
+    float: left;
+}
+.deletedTask{
+    width: 50%;
+    float: left;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+
+
+input {
+    padding: 5px 7px;
+}
+
+.add-btn {
+
+    background-color: blueviolet;
+    padding: 7px 17px;
+}
+
+button {
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-btn {
+    background-color: red;
+    padding: 7px 5px;
+    float: right;
+    margin-left: 30px;
+}
+.undo-btn{
+    background-color:darkgreen;
+    padding: 7px 5px;
+    float: right;
+    margin-left: 30px;
+}
+.complete-btn{
+    background-color: green;
+    padding: 7px 5px;
+    float: right;
+    margin-left: 40px;
+}
+li{
+    margin-top: 45px;
+    background-color: #edeff5;
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+}
+
+
+.error-msg{
+    color: red;
+}
+
+#searchText{
+    margin-left: 30px;
+}
